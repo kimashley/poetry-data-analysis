@@ -1,2 +1,4 @@
 # poetry-data-analysis
-Data analysis creating Bayesian coefficients using R (brms package, Bürkner 2017). 
+For my honor's thesis project, I developed a survey to evaluate the effectiveness of the poems given to the participants. The survey had the participants evaluate the poems based on both literary qualities and descriptor words. Ratings for all questions were made on a 5-point Likert scale. The questions pertained to literary qualities related to the creative use of language: concrete imagery, sounds and sound patterns, rhythm and meter, and open interpretation in the poem. 
+
+A series of Bayesian multilevel models with continuation ratios were computed to test relationships between the computational versus human author of the poems and their free verse versus formal structure, as well as interactions between the two factors. Coefficients for estimated effects and 95% confidence intervals (CIs) are reported. All analyses were performed in R (v4.1.0, www.rproject.org) using the R-studio interface (v1.3.1093) with the brms package (Bürkner, 2017). Attached is the code and results. 
